@@ -15,6 +15,10 @@ To complete this work sample, you will need the following software and tools:
 - Access to this dataset via a API key: https://www.kaggle.com/datasets/jacksoncrow/stock-market-dataset 
 - Python (I used Jupyter Notebook)
 
+## Assumptions
+- ML targets are not the priority of this project. The main focus is understandning the pipeline process and using a DAG tool
+- In problem 2, the rolling median averages is to be applied on "Adjusted Close"
+
 ## Instructions
 
 To complete the work sample, follow these instructions:
