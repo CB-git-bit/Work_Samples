@@ -12,6 +12,8 @@ To complete this work sample, you will need the following software and tools:
 
 - [Insert software and tools required to complete the work sample here]
 - [Insert any specific versions or configurations required here]
+- Access to this dataset via a API key: https://www.kaggle.com/datasets/jacksoncrow/stock-market-dataset 
+- Python (I used Jupyter Notebook)
 
 ## Instructions
 
@@ -26,20 +28,17 @@ To complete the work sample, follow these instructions:
 
 The work sample consists of the following tasks:
 
-1. [Insert description of the first task]
-2. [Insert description of the second task]
-3. [Insert description of the third task]
+1. Raw Data Processing
+2. Feature Engineering
+3. Integrate ML Training
+4. Model Serving
+
+Additional information on the tasks can be found here: https://github.com/RiskThinking/work-samples/blob/main/Data-Engineer.md
 
 ## Data
 
-The data for this work sample is provided in the [Insert file name or directory path here]. This data is [Insert a brief description of the data here, such as its format, source, and size].
+The data for this work sample has been accessed online through a Kaggle API. The dataset can be found under requirements. This data is a zip file containing two subfolders, 'etfs' and 'stocks', which contain CSV files for various etfs and stocks, respectfully. 
 
-## Evaluation
-
-Your work will be evaluated based on the following criteria:
-
-- [Insert evaluation criteria here, such as completeness, accuracy, efficiency, and clarity]
-- [Insert any additional instructions or guidelines for the evaluation process]
 
 ## Contact
 
