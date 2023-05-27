@@ -1,6 +1,5 @@
 # Work_Samples
 Work Sample for Data Engineer role at RiskThinking.ai
-NOTE: *This is template that will be completed as I progress through the project.* 
 
 ## Introduction
 
