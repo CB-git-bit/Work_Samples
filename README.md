@@ -34,14 +34,19 @@ To complete the work sample, follow these instructions:
 1. Ensure required software have been installed correctly. See *Resources* for reference on how to.
 2. Set up a kaggle API and save your kaggle.json file in the directory home/[user]/.kaggle:
     a. Go to home: 
-          ```cd home/[user]```
+          ```
+          cd home/[user]
+          ```
     b. Make your .kaggle directory:
-          ```mkdir .kaggle```
+          ```
+          mkdir .kaggle
+          ```
     c. Save your kaggle.json file here
 3. Clone this repository to your local machine.
 4. Set up a virtual environment for the airflow project (see Apache Airflow details in *Resources*)
 7. Install the project dependencies:
-   ``` pip install -r requirements.txt
+   ```
+   pip install -r requirements.txt
    ```
 5. Execute the airflow scheduler:
 ```
