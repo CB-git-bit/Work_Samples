@@ -20,10 +20,11 @@ To complete this work sample, you will need the following software and tools:
 ## Project Structure
 The project consists of the following files and directories:
 - `data_processing.py`: Contains the main functions for performing the project tasks of extracting and transforming the data.
-- `MLmodel.py`: Contains code for training the ML model as a function.
+- `MLmodel_v2.py`: Contains code for training the ML model as a function.
 - `my_dag.py`: Contains the main code for the data engineering pipeline and dag that is run with Apache Airflow.
 - `pipeline_app.py`: Contains code to run the trained ML model on an API service.
 - `requirements.txt`: Lists the project dependencies.
+- `In_Progress`: Directory for next steps 
 
 ## Assumptions
 - In problem 2, the rolling median averages is to be applied on "Adjusted Close"
@@ -62,16 +63,23 @@ To complete the work sample, follow these instructions:
 
 The work sample consists of the following tasks:
 
-1. Raw Data Processing
-2. Feature Engineering
-3. Integrate ML Training
-4. Model Serving
+1. Data is downloaded from kaggle using my kaggle API if the data has not already been downloaded
+2. The data is extracted from the downloaded zip file using Python's multiprocessing pool.
+3. The data is properly formatted and consolidated into one dataframe saved as a parquet.
+4. Rolling 30 day average volume is calculated and added as a column for each of the stocks & ETFs.
+5. Rolling 30 day median adjusted close is calcuated and added as another column for each of the stocks & ETFs.
+6. Data is loaded into a Random Forest Regression model for machine learning with a target of Volume and features specified in steps 4 & 5. 
+7. A parameter grid search is implemented on the model to determine the parameters that produce the best score. The model is then retrained with these parameters.
+8. Model is to then be deployed to an API service. 
 
-Additional information on the tasks can be found here: https://github.com/RiskThinking/work-samples/blob/main/Data-Engineer.md
+Additional information on the task goals can be found here: https://github.com/RiskThinking/work-samples/blob/main/Data-Engineer.md
 
 ## Data
 
 The data for this work sample has been accessed online through a Kaggle API. The dataset can be found under requirements. This data is a zip file containing two subfolders, 'etfs' and 'stocks', which contain CSV files for various etfs and stocks, respectfully. 
+
+## Limitations
+The following are limitations faced when developing this project. These limitations have impacted the functionality of the project and its results.
 
 ## Resources used
 * To properly install Ubuntu & WSL 2: https://learn.microsoft.com/en-us/windows/wsl/install
