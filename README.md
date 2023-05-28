@@ -78,6 +78,7 @@ The data for this work sample has been accessed online through a Kaggle API. The
 * To operate WSL 2 with VS Code: https://learn.microsoft.com/en-us/windows/wsl/tutorials/wsl-vscode)
 * To install Apache Airflow without Docker: https://www.freecodecamp.org/news/install-apache-airflow-on-windows-without-docker/
 * Copilot 
+* Websites and other information used is contained in `Additiona_references.txt`
 
 
 
