@@ -1,3 +1,10 @@
+'''
+## Problem 4: Model serviing
+**Objective:** Build an API service to serve the trained predictive model.
+
+Not yet tested, but rough draft of code is here. 
+
+'''
 import flask
 from flask import request
 import joblib
