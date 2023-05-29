@@ -26,8 +26,10 @@ The project consists of the following files and directories:
 - `requirements.txt`: Lists the project dependencies.
 - `In_Progress`: Directory for next steps 
 
-## Assumptions
+## Assumptions & Reasoning in logic
 - In problem 2, the rolling median averages is to be applied on "Adjusted Close"
+- *Random Forest Regression* was used as suggested in the work sample. This ML algorithm follows a supervised learning approach to split data into groups based on geatures and returns a prediction that is the average across the data it is trained on. This alogrithm is good for continous data like the stock market data being used in this project, which is why I continued to use it. 
+- Since a *Random Forest Regression* model was used on stock market data, which is not Gaussian in nature. *Random Forest Regression* is insensitive to features scaling so data standardization was not implemented. Additionally, the data from stocks & ETFs is not Gaussian so outliers would impact any standardizing or normalizing. Therefore, only the data structuring was implemented as part of the pre-processing.
 
 ## Instructions
 To complete the work sample, follow these instructions:
@@ -77,9 +79,6 @@ Additional information on the task goals can be found here: https://github.com/R
 ## Data
 
 The data for this work sample has been accessed online through a Kaggle API. The dataset can be found under requirements. This data is a zip file containing two subfolders, 'etfs' and 'stocks', which contain CSV files for various etfs and stocks, respectfully. 
-
-## Limitations
-The following are limitations faced when developing this project. These limitations have impacted the functionality of the project and its results.
 
 ## Resources used
 * To properly install Ubuntu & WSL 2: https://learn.microsoft.com/en-us/windows/wsl/install
