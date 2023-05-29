@@ -5,8 +5,8 @@ Work Sample for Data Engineer role.
 This repository contains the work sample for the Data Engineer position at RiskThinking.ai. The goal of this project is to assess my technical skills and proficiency in data engineering concepts and tools.
 
 ### Limitations
-*This project does not contain results. It is in progress. 
-- Next steps are inlcuded in the `In_Progress` directory. *
+*This project does not contain results. It is in progress.* 
+- Next steps are inlcuded in the `In_Progress` directory. 
 - The system where this project is being developed had limited capabilities that did not support docker and had long processing times. 
  
 ## Requirements
