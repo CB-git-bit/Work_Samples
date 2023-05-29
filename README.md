@@ -93,5 +93,5 @@ The data for this work sample has been accessed online through a Kaggle API. The
 
 
 
-## Contact
+### Contact
 If you have any questions or issues with this work sample, please contact the applicant.
