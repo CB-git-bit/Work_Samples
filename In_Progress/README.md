@@ -19,7 +19,8 @@ The following tasks are items I plan to continue to integrate into this project:
   Limited system capabilities has been a significant setback in developing these steps. 
 - Incorporate unit tests, logic tests, and other fail safes to ensure program robustness
 - BONUS step from Problem 4: Test the API service, document your methodology, provisioned computing resources, test results, a breakdown of observable bottlenecks (e.g. model loading/inference, socket/IO, etc.), and improvement suggestions for hypothetical future iterations.
-- incorporate visualizations to the API service of the results 
-- Analyze best parameter results from training the ML model
-- integrate a database to host the contest instead of locally to improve process time
+- Incorporate visualizations to the API service of the results 
+- Analyze best parameter results from training the ML model to ensure model isn't overfitted
+- Integrate a database to host the contest instead of locally to improve process time
+
 
