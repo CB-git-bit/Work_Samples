@@ -2,7 +2,7 @@
 Work Sample for Data Engineer role.
 
 ## Introduction
-This repository contains the work sample for the Data Engineer position at RiskThinking.ai. The goal of this project is to assess my technical skills and proficiency in data engineering concepts and tools.
+This repository contains the work sample for the Data Engineer position {at RiskThinking.ai}. The goal of this project is to assess my technical skills and proficiency in data engineering concepts and tools.
 
 ### Limitations
 *This project does not contain results. It is in progress. 
